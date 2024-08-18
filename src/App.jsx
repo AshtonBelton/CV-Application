@@ -1,8 +1,10 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import GeneralInformation from './components/GeneralInformation.jsx';
 
+/*
 function App() {
   const [count, setCount] = useState(0)
 
@@ -31,5 +33,16 @@ function App() {
     </>
   )
 }
+*/
+
+const App = () => {
+  return (
+    <div className='App'>
+      <h1>CV Application</h1>
+      <GeneralInformation />
+    </div>
+  );
+};
+
 
 export default App

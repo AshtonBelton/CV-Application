@@ -24,6 +24,11 @@ const GeneralInformation = () => {
         setEditing(false);
     };
 
+    // Handle edit button click 
+    const handleEdit = () => {
+        setEditing(true);
+    };
+
     return (
         <div className="general-information">
             {editing ? (

@@ -1,0 +1,23 @@
+.educational-experience {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+  
+.educational-experience form div {
+    margin-bottom: 10px;
+}
+  
+.educational-experience label {
+    margin-right: 10px;
+}
+  
+.educational-experience input {
+    padding: 5px;
+}
+  
+.educational-experience button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+  

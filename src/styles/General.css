@@ -4,3 +4,19 @@
     margin: 20px;
 }
 
+.general-information form div {
+    margin-bottom: 10px;
+}
+
+.general-information label {
+    margin-bottom: 10px;
+}
+
+.general-information input {
+    padding: 5px;
+}
+
+.general-information button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
