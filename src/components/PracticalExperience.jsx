@@ -38,7 +38,7 @@ const PracticalExperience = () => {
                             type="text"
                             id="companyName"
                             name="companyName"
-                            value={practical.companyName}
+                            value={experience.companyName}
                             onChange={handleChange}
                             required
                         />
@@ -47,47 +47,47 @@ const PracticalExperience = () => {
                     <div>
                         <label htmlFor="positionTitle">Position Title:</label>
                         <input
-                        type="text"
-                        id="positionTitle"
-                        name="positionTitle"
-                        value={practical.positionTitle}
-                        onChange={handleChange}
-                        required
+                            type="text"
+                            id="positionTitle"
+                            name="positionTitle"
+                            value={experience.positionTitle}
+                            onChange={handleChange}
+                            required
                         />
                     </div>
 
                     <div>
                         <label htmlFor="mainResponsibilities">Main Responsibilities:</label>
                         <textarea
-                        id="mainResponsibilities"
-                        name="mainResponsibilities"
-                        value={practical.mainResponsibilities}
-                        onChange={handleChange}
-                        required
+                            id="mainResponsibilities"
+                            name="mainResponsibilities"
+                            value={experience.mainResponsibilities}
+                            onChange={handleChange}
+                            required
                         />
                     </div>
 
                     <div>
                         <label htmlFor="dateFrom">Date From:</label>
                         <input
-                        type="date"
-                        id="dateFrom"
-                        name="dateFrom"
-                        value={practical.dateFrom}
-                        onChange={handleChange}
-                        required
+                            type="date"
+                            id="dateFrom"
+                            name="dateFrom"
+                            value={experience.dateFrom}
+                            onChange={handleChange}
+                            required
                         />
                     </div>
 
                     <div>
                         <label htmlFor="dateUntil">Date Until:</label>
                         <input
-                        type="date"
-                        id="dateUntil"
-                        name="dateUntil"
-                        value={practical.dateUntil}
-                        onChange={handleChange}
-                        required
+                            type="date"
+                            id="dateUntil"
+                            name="dateUntil"
+                            value={experience.dateUntil}
+                            onChange={handleChange}
+                            required
                         />
                     </div>
 
@@ -95,13 +95,13 @@ const PracticalExperience = () => {
                 </form>
             ) : (
                 <div>
-                <h2>Practical Experience</h2>
-                <p><strong>Company Name:</strong> {practical.companyName}</p>
-                <p><strong>Position Title:</strong> {practical.positionTitle}</p>
-                <p><strong>Main Responsibilities:</strong> {practical.mainResponsibilities}</p>
-                <p><strong>Date From:</strong> {practical.dateFrom}</p>
-                <p><strong>Date Until:</strong> {practical.dateUntil}</p>
-                <button onClick={handleEdit}>Edit</button>
+                    <h2>Practical Experience</h2>
+                    <p><strong>Company Name:</strong> {practical.companyName}</p>
+                    <p><strong>Position Title:</strong> {practical.positionTitle}</p>
+                    <p><strong>Main Responsibilities:</strong> {practical.mainResponsibilities}</p>
+                    <p><strong>Date From:</strong> {practical.dateFrom}</p>
+                    <p><strong>Date Until:</strong> {practical.dateUntil}</p>
+                    <button onClick={handleEdit}>Edit</button>
                 </div>
             )}
         </div>

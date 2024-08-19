@@ -33,36 +33,36 @@ const EducationalExperience = () => {
                     <div>
                         <label htmlFor="schoolName">School Name:</label>
                         <input
-                        type="text"
-                        id="schoolName"
-                        name="schoolName"
-                        value={education.schoolName}
-                        onChange={handleChange}
-                        required
+                            type="text"
+                            id="schoolName"
+                            name="schoolName"
+                            value={education.schoolName}
+                            onChange={handleChange}
+                            required
                         />
                     </div>
         
                     <div>
                         <label htmlFor="titleOfStudy">Title of Study:</label>
                         <input
-                        type="text"
-                        id="titleOfStudy"
-                        name="titleOfStudy"
-                        value={education.titleOfStudy}
-                        onChange={handleChange}
-                        required
+                            type="text"
+                            id="titleOfStudy"
+                            name="titleOfStudy"
+                            value={education.titleOfStudy}
+                            onChange={handleChange}
+                            required
                         />
                     </div>
         
                     <div>
                         <label htmlFor="dateOfStudy">Date of Study:</label>
                         <input
-                        type="date"
-                        id="dateOfStudy"
-                        name="dateOfStudy"
-                        value={education.dateOfStudy}
-                        onChange={handleChange}
-                        required
+                            type="date"
+                            id="dateOfStudy"
+                            name="dateOfStudy"
+                            value={education.dateOfStudy}
+                            onChange={handleChange}
+                            required
                         />
                     </div>
         

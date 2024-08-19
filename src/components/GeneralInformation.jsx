@@ -6,13 +6,13 @@ const GeneralInformation = () => {
     const [generalInfo, setGeneralInfo] = useState({
         name: '',
         email: '',
-        phone: ''
+        phone: '',
     });
 
     // Handle input changes
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setInfo({
+        setGeneralInfo({
             ...generalInfo,
             [name]: value
         });
@@ -48,11 +48,12 @@ const GeneralInformation = () => {
                     <div>
                         <label htmlFor="email">Email:</label>
                         <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={generalInfo.email}
-                        required
+                            type="email"
+                            id="email"
+                            name="email"
+                            value={generalInfo.email}
+                            onChange={handleChange}
+                            required
                         />
                     </div>
 
