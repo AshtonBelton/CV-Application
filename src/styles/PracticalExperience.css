@@ -1,0 +1,29 @@
+.practical-experience {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+  
+.practical-experience form div {
+    margin-bottom: 10px;
+}
+  
+.practical-experience label {
+    margin-right: 10px;
+}
+  
+.practical-experience input,
+.practical-experience textarea {
+    padding: 5px;
+}
+  
+.practical-experience button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+  
+.practical-experience textarea {
+    width: 100%;
+    height: 100px;
+}
+  

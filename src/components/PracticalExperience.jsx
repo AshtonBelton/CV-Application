@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/Experience.css";
+import "../styles/PracticalExperience.css";
 
 const PracticalExperience = () => {
     const [isEditing, setIsEditing] = useState(true);
