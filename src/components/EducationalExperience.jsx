@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "../styles/Education.css";
 
 const EducationalExperience = () => {
-    const [isEditing, setItEditing] = useState(true);
+    const [isEditing, setIsEditing] = useState(true);
     const [education, setEducation] = useState({
         schoolName: '',
         studies: '',
@@ -19,11 +19,11 @@ const EducationalExperience = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setItEditing(false);
+        setIsEditing(false);
     };
 
     const handleEdit = () => {
-        setItEditing(true);
+        setIsEditing(true);
     };
 
     return (
